@@ -1,0 +1,18 @@
+[submodule "ros_docker"]
+	path = ros_docker
+	url = git@github.com:brow1633/ros_docker.git
+[submodule "src/oscar_ros"]
+	path = src/oscar_ros
+	url = git@github.com:brow1633/oscar_ros.git
+[submodule "src/realsense-ros"]
+	path = src/realsense-ros
+	url = git@github.com:IntelRealSense/realsense-ros.git
+[submodule "src/topic_tools"]
+	path = src/topic_tools
+	url = git@github.com:ros-tooling/topic_tools.git
+[submodule "src/oscar_hardware_intf"]
+	path = src/oscar_hardware_intf
+	url = git@github.com:brow1633/oscar_hardware_intf.git
+[submodule "src/joystick_drivers"]
+	path = src/joystick_drivers
+	url = git@github.com:ros-drivers/joystick_drivers.git
