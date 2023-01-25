@@ -13,6 +13,11 @@
 		}
 	},
 
+	"remoteEnv": {
+		"DISPLAY":"${env:DISPLAY}",
+		"QT_X11_NO_MITSHM":"1"
+	},
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
@@ -25,5 +30,12 @@
 	// Configure tool-specific properties.
 	// "customizations": {},
 
-	"remoteUser": "${env:USER}"
+	"remoteUser": "${env:USER}",
+
+	"mounts": [
+		"type=bind,src=/tmp/.X11-unix,dst=/tmp/.X11-unix",
+		"type=bind,src=/dev,dst=/dev"
+	],
+	
+	"runArgs": ["--privileged"],
 }
