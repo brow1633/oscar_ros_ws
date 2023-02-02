@@ -14,7 +14,7 @@
 	},
 
 	"remoteEnv": {
-		"DISPLAY":"${env:DISPLAY}",
+		"DISPLAY":":0",
 		"QT_X11_NO_MITSHM":"1"
 	},
 
