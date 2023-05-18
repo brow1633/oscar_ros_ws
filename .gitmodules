@@ -10,3 +10,6 @@
 [submodule "src/oscar_hardware_intf"]
 	path = src/oscar_hardware_intf
 	url = git@github.com:brow1633/oscar_hardware_intf.git
+[submodule "src/oscar_ros_msgs"]
+	path = src/oscar_ros_msgs
+	url = git@github.com:brow1633/oscar_ros_msgs.git
