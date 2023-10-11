@@ -13,3 +13,9 @@
 [submodule "src/oscar_ros_msgs"]
 	path = src/oscar_ros_msgs
 	url = git@github.com:brow1633/oscar_ros_msgs.git
+[submodule "src/nav2_complete_coverage_planner"]
+	path = src/nav2_complete_coverage_planner
+	url = git@github.com:brow1633/complete_coverage_planner.git
+[submodule "src/Fields2Cover"]
+	path = src/Fields2Cover
+	url = git@github.com:Fields2Cover/Fields2Cover.git
