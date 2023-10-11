@@ -19,3 +19,6 @@
 [submodule "src/Fields2Cover"]
 	path = src/Fields2Cover
 	url = git@github.com:Fields2Cover/Fields2Cover.git
+[submodule "src/nav2_complete_coverage_helpers"]
+	path = src/nav2_complete_coverage_helpers
+	url = git@github.com:brow1633/complete_coverage_helpers.git
